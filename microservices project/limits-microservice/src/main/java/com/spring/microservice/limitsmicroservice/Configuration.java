@@ -10,6 +10,7 @@ public class Configuration {
 	private int minimum;
 	private int maximum;
 	public int getMinimum() {
+		
 		return minimum;
 	}
 	public void setMinimum(int minimum) {
