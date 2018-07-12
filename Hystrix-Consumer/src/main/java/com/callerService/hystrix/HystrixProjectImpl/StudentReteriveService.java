@@ -32,7 +32,7 @@ public class StudentReteriveService {
 	public String getDetailsFromStudentDataService(String schoolName)
 	
 	{
-		
+	
 		
 		
 		logger.info("Inside the Retrieval Service");

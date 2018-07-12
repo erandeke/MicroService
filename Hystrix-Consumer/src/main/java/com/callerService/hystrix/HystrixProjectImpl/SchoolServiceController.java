@@ -15,7 +15,7 @@ public class SchoolServiceController {
 	StudentReteriveService studRetrieveService;
 	
 	
-	
+
 	@GetMapping("/getStudentDetailsForSchool/{schoolname}")
 	public String FetchStudentDataFromRetrieveService(@PathVariable String schoolname)
 	{
