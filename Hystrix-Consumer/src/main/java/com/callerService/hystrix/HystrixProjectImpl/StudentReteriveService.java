@@ -34,6 +34,7 @@ public class StudentReteriveService {
 	{
 		
 		
+		
 		logger.info("Inside the Retrieval Service");
 		String response=restTemplate.exchange("http://localhost:9990/getStudentDetailsForSchool/{schoolname}", HttpMethod.GET, null, new ParameterizedTypeReference<String>() {
 		} ,schoolName).getBody();
