@@ -5,3 +5,5 @@ Configuration Management,
 Dynamic Scaling,
 Fault Tolerance 
 Load Balancing is explained with code
+
+Zuul API DEMO:https://github.com/shuaicj/zuul-auth-example
